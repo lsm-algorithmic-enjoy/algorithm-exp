@@ -1,5 +1,5 @@
 function solution(common) {
-    let answer = 0;
+
     let ratioArray = [];
     let minusArray = [];
     
