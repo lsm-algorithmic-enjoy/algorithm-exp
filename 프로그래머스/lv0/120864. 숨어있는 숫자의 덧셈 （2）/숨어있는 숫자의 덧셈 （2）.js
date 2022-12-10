@@ -11,7 +11,7 @@ function solution(my_string) {
             newArray.push(newStr);
             newStr = '';
         }
-        if((i === my_string.length-1) && !isNaN(my_string[i])){
+        if((i === my_string.length-1) && (!isNaN(my_string[i]))){
             newArray.push(newStr);
         }
     }
