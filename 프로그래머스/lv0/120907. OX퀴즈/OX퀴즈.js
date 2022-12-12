@@ -13,7 +13,6 @@ function solution(quiz) {
             answer.push('O');
         }
         else answer.push('X');
- 
     }
     return answer;
 }
