@@ -6,5 +6,5 @@ function solution(s) {
     if(bool1 && bool2){
         return true;
     }
-    else return false;
+    return false;
 }
