@@ -1,9 +1,9 @@
 function solution(score) {
-    let answer = [];
-    let avgArray = [];
-    let scoreObj = {};
-    let sortedscoreObj = {};
-    let sbs = [1];
+    const answer = [];
+    const avgArray = [];
+    const scoreObj = {};
+    const sortedscoreObj = {};
+    const sbs = [1];
     for(let i = 0; i < score.length; i++){
        let avg = (score[i][0] + score[i][1])/2
        avgArray.push(avg);
@@ -24,7 +24,7 @@ function solution(score) {
     }
     
     for(let i = 0; i < sbs.length; i++){
-        sortedscoreObj[sortavgarr[i]] = sbs[i]
+        sortedscoreObj[sortavgarr[i]] = sbs[i];
     }
     console.log(sortedscoreObj)
     
