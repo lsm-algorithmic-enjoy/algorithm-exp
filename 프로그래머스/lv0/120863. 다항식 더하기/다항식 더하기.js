@@ -25,9 +25,7 @@ function solution(polynomial) {
     //일차항만 나오는 경우, 단 x일때 매우주의
     //일차항+상수 경우, 단 x일때 매우주의
    
-    if((xstringnum === 0) && (finalnum === 0)){
-          return "0";   
-    }
+    
     if(xstringnum === 0){
         return `${finalnum}`;
     }
