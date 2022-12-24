@@ -1,17 +1,15 @@
 function solution(n) {
     let answer = 0;
-    let cnt = 0;
-    for(let i = 1 ; i <= n; i++) {
-        for(let j = 1; j <=n; j++){
-            if(i % j === 0){
-                cnt = cnt + 1;
-            }
-            if (cnt === 3){
-                answer = answer + 1;
-                break;
+    for(let i = n; i >= 1; i--){
+        let isCount = false;
+        for(let num =2; num <= i-1; num++){
+            if(i % num === 0){
+                isCount = true;
             }
         }
-        cnt = 0;
+        if (isCount){
+            answer +=1;
+        }
     }
     return answer;
 }
