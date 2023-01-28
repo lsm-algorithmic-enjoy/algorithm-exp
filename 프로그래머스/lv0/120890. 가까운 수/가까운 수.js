@@ -1,6 +1,6 @@
 function solution(array, n) {
 
-    let newArray = [];
+    const newArray = [];
     array.sort((a,b) => a-b);
  
     for(let i = 0; i < array.length; i++){
