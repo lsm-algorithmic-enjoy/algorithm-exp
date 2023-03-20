@@ -1,7 +1,6 @@
 function solution(array) {
-    let answer = [];
-    const num = Math.max(...array);
-    answer.push(num);
-    answer.push(array.indexOf(num));
+    const answer = [];
+    answer.push(Math.max(...array));
+    answer.push(array.indexOf(Math.max(...array)));
     return answer;
 }
