@@ -3,7 +3,6 @@ function solution(quiz) {
     let temp = 0;
     for(let i = 0; i < quiz.length; i++){
         const quizarr = quiz[i].split(' ');
-        console.log(quizarr);
         if(quizarr[1] === '+'){
             temp = parseInt(quizarr[0]) + parseInt(quizarr[2]);
         }
