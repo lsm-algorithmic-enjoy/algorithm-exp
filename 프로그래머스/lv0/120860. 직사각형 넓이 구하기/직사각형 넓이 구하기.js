@@ -1,5 +1,4 @@
 function solution(dots) {
-    let answer = 0;
     let newYArray = [];
     let newXArray = [];
     for(let i = 0; i < dots.length; i++){
