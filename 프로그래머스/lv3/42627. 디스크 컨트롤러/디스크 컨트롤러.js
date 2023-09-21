@@ -15,7 +15,6 @@ function solution(jobs) {
     
     const insertJob = (job) => {
         waitingRoom.push(job);
-        let i = waitingRoom.length - 1;
         waitingRoom.sort((a,b) => a[1] - b[1]);
     };
     
